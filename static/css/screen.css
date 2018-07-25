@@ -1,0 +1,60 @@
+.width-wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slick-initialized:not(.visible) {
+    height: 0px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.image-slide {
+    width: 100%;
+}
+
+.image-slide img {
+    display: block;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+}
+
+.side-menu {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: calc((100% - 900px) / 2);
+}
+
+.side-menu > * {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.slick-arrow {
+    position: absolute;
+    bottom: 100%;
+    width: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.slick-arrow.slick-prev {
+    right: 50%;
+}
+
+.slick-arrow.slick-next {
+    left: 50%;
+}
+
+footer {
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+}
